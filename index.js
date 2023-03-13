@@ -19,3 +19,5 @@ app.use('/books', bookController);
 app.listen(3000, () => {
     console.log("I AM ALIVE or Greetings from port: ", PORT);
 })
+
+module.exports = app;
